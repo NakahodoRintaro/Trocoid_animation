@@ -24,3 +24,16 @@ def pcf_to_graph3(pcf, last, ax):
     #ax.grid() # グラフにグリッドを追加
 
     ax.plot(x, y) # 描画
+    
+last = 2 * np.pi # 周期の定義
+fig = plt.figure(figsize=(15,15)) # サイズを均等に
+
+for i in range(1,6):
+    for j in range(1,6):
+        ax = fig.add_subplot(5,5,(i-1)*5+j)
+        pcf_to_graph3(lambda th: np.sin((j/i)*th), last, ax)
+        ax.axis([-1.2,1.2,-1.2,1.2])
+    last += 2 * np.pi # 周期の定義
+
+#svgで保存
+#fig.savefig('5_2.svg',facecolor="azure")
