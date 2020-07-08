@@ -9,7 +9,7 @@ A kind of experimental memo.**
 ## Second, Make your flower drawing beautiful.
 ![svg](https://github.com/NakahodoRintaro/Trocoid_animation/blob/master/images/hana.svg)
 
-## Last, Draw an annihilation of the inner trochoid
+## Finally, draw an animation of the inner trochoid.
 ![trocoid_ani](https://github.com/NakahodoRintaro/Trocoid_animation/blob/master/images/trocoid_animation.gif)
 
 ## Enviroment
