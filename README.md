@@ -1,3 +1,3 @@
 # python_trocoid_result
-これはテストです。
-torocoidのテスト
+torocoidをアニメーションで回転行列を使って描画しています。
+実験メモのようなもの。
