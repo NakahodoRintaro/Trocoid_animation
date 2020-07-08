@@ -1,7 +1,8 @@
 # Trocoid_animation
-The torocoid is rendered using a rotation matrix in the animation.<br>
-A kind of experimental memo.
+**The torocoid is rendered using a rotation matrix in the animation.<br>
+A kind of experimental memo.**
 
+--- 
 ## First, draw a circle and a graph that corresponds to the movement of the X and Y axes.
 ![circle_ani](https://github.com/NakahodoRintaro/Trocoid_animation/blob/master/images/circle_animation.gif)
 
@@ -12,7 +13,7 @@ A kind of experimental memo.
 ![trocoid_ani](https://github.com/NakahodoRintaro/Trocoid_animation/blob/master/images/trocoid_animation.gif)
 
 ## Enviroment
-- python3.7
+- **python3.7**
   - matplotlib
   - numpy
   - sympy
